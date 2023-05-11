@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionador de Pizzas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="pizza-container">
+        <h1>
+            Seleccionador de Pizzas
+        </h1>
+        <form id="pizza-form" class="pizza-form">
+            <div class="input-container">
+                <img src="./img/lupa.svg" alt="Lupa de busqueda" />
+                <input type="number" class="input-number" id="pizza-id" min="1" step="1" placeholder="Ingresá el id de la pizza">
+            </div>
+            <button type="submit" class="buscar-btn">
+                <span class="gradient-span">Buscar</span>
+            </button>
+        </form>
+        <div id="result-container" class="container"></div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
